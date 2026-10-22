@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta name="monetag" content="18689444e1d7dd9643665cb6499b400b">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#07152d">
+<title>বাংলা Fun Zone</title>
+<style>
+:root{--bg:#07152d;--panel:#102749;--panel2:#183866;--text:#fff;--muted:#b8c9e8;--line:#294d80;--accent:#287cff;--green:#00b879;--shadow:0 8px 24px #0003}
+[data-theme="light"]{--bg:#eef4ff;--panel:#fff;--panel2:#e4edff;--text:#14213d;--muted:#5c6c89;--line:#c7d5ee;--accent:#245eea;--green:#07885d;--shadow:0 8px 24px #18386618}
+[data-theme="colorful"]{--bg:#210b3c;--panel:#35145b;--panel2:#512181;--text:#fff;--muted:#ead8ff;--line:#7543a5;--accent:#f12d91;--green:#00c89a;--shadow:0 8px 24px #0004}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,"Noto Sans Bengali",Arial,sans-serif;transition:background .25s,color .25s}button,input,select{font:inherit}button{cursor:pointer;border:0;border-radius:11px;padding:11px 14px;background:var(--accent);color:white;font-weight:700;transition:transform .12s,filter .12s}button:active{transform:scale(.97)}button:disabled{opacity:.45;cursor:not-allowed}.secondary{background:#52647f}.green{background:var(--green)}.pink{background:#e52c91}.gold{background:#e9a514;color:#231600}.danger{background:#c83e52}.smallbtn{padding:8px 10px;font-size:14px}.wrap{max-width:1050px;margin:auto;padding:12px}header{background:linear-gradient(120deg,#123e8d,#692ac2);padding:18px 14px;box-shadow:var(--shadow)}.headrow{max-width:1050px;margin:auto;display:flex;align-items:center;gap:12px}.logo{font-size:42px}.brand{flex:1}.brand h1{font-size:clamp(21px,5vw,31px);margin:0}.brand p{margin:4px 0 0;color:#e2eaff;font-size:14px}.points{border-radius:20px;background:#ffffff20;padding:9px 12px;font-weight:800;white-space:nowrap}nav{display:flex;gap:7px;padding:10px;overflow-x:auto;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}nav button{white-space:nowrap;flex-shrink:0;background:var(--panel2);color:var(--text)}nav button.active{background:var(--green);color:white}.page{display:none;animation:fade .25s}.page.active{display:block}@keyframes fade{from{opacity:.4;transform:translateY(5px)}to{opacity:1;transform:none}}.hero{border-radius:18px;padding:22px 18px;background:linear-gradient(120deg,#04a9db,#4d36d2,#b529a5);margin:8px 0 14px;text-align:center;box-shadow:var(--shadow)}.hero h2{margin:0 0 8px;font-size:25px}.hero p{margin:5px 0 14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:15px;margin:13px 0;box-shadow:var(--shadow)}.panel h2{font-size:20px;margin:0 0 12px}.muted,.small{color:var(--muted)}.small{font-size:13px}.ad{border:1px dashed var(--line);border-radius:13px;text-align:center;padding:18px;color:var(--muted);margin:14px 0;background:var(--panel)}.ad strong{display:block;color:var(--text);font-size:16px;margin-bottom:5px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.tile{background:var(--panel2);border:1px solid var(--line);padding:15px 10px;border-radius:14px;text-align:center;min-width:0}.tile .emoji{font-size:31px}.tile h3{margin:5px 0}.tile p{margin:4px 0 10px;font-size:13px;color:var(--muted)}.tile button{width:100%;padding:9px}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.row>*{flex:1}.row .fixed{flex:0 0 auto}input,select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text);margin:5px 0}label{font-size:14px;color:var(--muted)}.result{background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:12px;margin-top:10px;min-height:42px;line-height:1.6}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.actions button{flex:1;min-width:100px}.big{font-size:31px;text-align:center}.board{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:330px;margin:12px auto}.cell{height:78px;font-size:28px;background:var(--panel2);color:var(--text)}.memory{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;max-width:390px;margin:12px auto}.mem{height:60px;font-size:24px;background:var(--panel2);color:var(--text)}.canvasbox{width:100%;max-width:440px;margin:10px auto}.canvasbox canvas{width:100%;height:auto;display:block;background:#071326;border:1px solid var(--line);border-radius:12px;touch-action:manipulation}.snakepad{display:grid;grid-template-columns:repeat(3,56px);justify-content:center;gap:6px;margin:12px}.snakepad button{height:48px;padding:5px}.listitem{padding:12px;border-radius:11px;background:var(--panel2);margin:7px 0}.hidden{display:none!important}.progress{height:9px;border-radius:9px;background:var(--bg);overflow:hidden;margin:8px 0}.progress span{display:block;height:100%;background:var(--green);width:0;transition:width .3s}.badge{background:#e9a514;color:#231600;padding:4px 8px;border-radius:20px;font-size:12px;font-weight:800}.avatar{font-size:44px}.profiletop{display:flex;align-items:center;gap:14px}.profiletop .avatar{background:var(--panel2);border-radius:50%;padding:10px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#102749;color:white;padding:12px 18px;border-radius:20px;z-index:20;box-shadow:var(--shadow);max-width:90%;text-align:center}.loader{position:fixed;inset:0;background:#06152df2;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:50;color:white;transition:opacity .4s}.spinner{width:52px;height:52px;border:5px solid #ffffff40;border-top-color:#00e6ad;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:14px}@keyframes spin{to{transform:rotate(360deg)}}footer{text-align:center;padding:24px;color:var(--muted);font-size:13px}.tag{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:5px 9px;margin:3px;font-size:12px;color:var(--muted)}.quizopt{width:100%;text-align:left;background:var(--panel2);color:var(--text);border:1px solid var(--line);margin:4px 0}.quizopt.correct{background:#08794e;color:white}.quizopt.wrong{background:#a52b44;color:white}.riddleq{font-size:19px;line-height:1.7}.racehint{font-size:13px;text-align:center;color:var(--muted)}@media(min-width:650px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.gamesgrid{grid-template-columns:repeat(4,minmax(0,1fr))}.hero{text-align:left;padding:28px}.two{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}.two>.panel{margin-top:0}}@media(max-width:370px){.headrow{gap:7px}.logo{font-size:32px}.points{font-size:12px;padding:8px}.grid3{grid-template-columns:repeat(2,1fr)}}
+
+.floating-profile{position:fixed;right:14px;bottom:18px;z-index:30;display:flex;align-items:center;gap:7px;
+  border-radius:28px;padding:12px 16px;box-shadow:0 5px 18px #0005;background:linear-gradient(135deg,#7c3aed,#2563eb);
+  color:#fff;font-weight:800;border:2px solid #ffffff55}
+.floating-profile span{font-size:14px}
+body{padding-bottom:76px}
+@media(min-width:650px){.floating-profile{right:24px;bottom:24px}}
+
+.floating-home {
+  position: fixed;
+  left: 14px;
+  bottom: 18px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 28px;
+  padding: 12px 16px;
+  box-shadow: 0 5px 18px #0005;
+  background: linear-gradient(135deg, #059669, #0d9488);
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid #ffffff55;
+}
+.floating-home span { font-size: 14px; }
+@media (min-width: 650px) {
+  .floating-home { left: 24px; bottom: 24px; }
+}
+
+/* Bottom navigation: Home, Settings, Profile */
+.floating-home {
+  left: 14px !important;
+  right: auto !important;
+  bottom: 18px !important;
+}
+.floating-profile {
+  right: 14px !important;
+  left: auto !important;
+  bottom: 18px !important;
+}
+.floating-settings {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 31;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 28px;
+  padding: 12px 16px;
+  box-shadow: 0 5px 18px #0005;
+  background: linear-gradient(135deg, #d97706, #ea580c);
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid #ffffff55;
+}
+.floating-settings span { font-size: 14px; }
+/* Hide the original top navigation shortcuts; bottom shortcuts remain visible. */
+header .nav, header nav, .top-nav, .navbar .nav-links, .header-nav { display: none !important; }
+@media (min-width: 650px) {
+  .floating-home { left: 24px !important; bottom: 24px !important; }
+  .floating-profile { right: 24px !important; bottom: 24px !important; }
+  .floating-settings { bottom: 24px; }
+}
+</style>
+</head>
+<body data-theme="dark">
+<div class="loader" id="loader"><div class="spinner"></div><b>বাংলা Fun Zone</b><p>মজার জগৎ তৈরি হচ্ছে...</p></div>
+<header><div class="headrow"><div class="logo">😄</div><div class="brand"><h1>বাংলা <span style="color:#ffe65b">Fun Zone</span></h1><p>খেলুন • শিখুন • আনন্দ করুন</p></div><div class="points">🪙 <span id="headCoins">০</span> &nbsp; ⭐ <span id="headPoints">০</span></div></div></header>
+<nav id="nav">
+<button class="active" data-page="home">🏠 হোম</button><button data-page="games">🎮 গেম</button><button data-page="quiz">📝 কুইজ</button><button data-page="riddles">💡 ধাঁধা</button><button data-page="facts">🌍 মজার তথ্য</button><button data-page="daily">📅 দৈনিক</button><button data-page="profile">👤 প্রোফাইল</button><button data-page="settings">⚙️ সেটিংস</button>
+</nav>
+<div class="wrap">
+<section id="home" class="page active">
+<div class="panel sensi-home-card"><h2>🎯 Free Fire Sensi Pro</h2><p>আপনার ফোন ও খেলার ধরন অনুযায়ী কাস্টম সেনসিটিভিটি সাজেশন নিন।</p><button class="pink" onclick="showPage('sensi')">🔥 সেন্সি নিন</button><p class="small">এটি সাজেশন; গেমে সেটিংস নিজে বসাতে হবে।</p></div>
+<div class="hero"><h2 id="welcome">স্বাগতম বাংলা Fun Zone-এ! 🎉</h2><p>গেম খেলুন, নতুন কিছু শিখুন, ধাঁধা সমাধান করুন!</p><div class="row"><button class="green" onclick="showPage('games')">🎮 গেম খেলুন</button><button class="pink" onclick="showPage('riddles')">🧩 ধাঁধা শুরু</button><button onclick="showPage('daily')">📅 আজকের চ্যালেঞ্জ</button></div></div>
+<div class="ad"><strong>📢 বিজ্ঞাপনের জায়গা</strong>Monetag-এর অনুমোদিত বিজ্ঞাপন পরে এখানে যুক্ত করুন।<p class="small">এটি শুধু প্লেসহোল্ডার; এখানে এখন কোনো বিজ্ঞাপন চলছে না।</p></div>
+<div class="panel"><h2>✨ কী খেলবেন?</h2><div class="grid">
+<div class="tile"><div class="emoji">🎮</div><h3>গেম</h3><p>স্নেক, রেসিং, টিক ট্যাক টোসহ আরও গেম</p><button onclick="showPage('games')">গেম দেখুন</button></div>
+<div class="tile"><div class="emoji">📝</div><h3>কুইজ</h3><p>বিভিন্ন বিষয়ের প্রশ্ন ও স্কোর</p><button onclick="showPage('quiz')">কুইজ দিন</button></div>
+<div class="tile"><div class="emoji">🧩</div><h3>ধাঁধা</h3><p>নতুন ধাঁধা ও উত্তর যাচাই</p><button onclick="showPage('riddles')">ধাঁধা দেখুন</button></div>
+<div class="tile"><div class="emoji">🌍</div><h3>মজার তথ্য</h3><p>বিজ্ঞান, প্রকৃতি ও পৃথিবী</p><button onclick="showPage('facts')">পড়ুন</button></div>
+</div></div>
+<div class="panel"><h2>🏆 আপনার অগ্রগতি</h2><div class="row"><div>⭐ মোট পয়েন্ট <h3 id="homePoints">০</h3></div><div>🎖️ লেভেল <h3 id="homeLevel">১</h3></div><div>🔥 সেরা স্কোর <h3 id="homeBest">০</h3></div></div><div class="progress"><span id="levelBar"></span></div><p class="small" id="levelText">পরের লেভেলের জন্য আরও পয়েন্ট সংগ্রহ করুন।</p></div>
+</section>
+
+<section id="sensi" class="page">
+<div class="hero"><h2>🎯 Free Fire Sensi Pro</h2><p>আপনার ডিভাইস ও কন্ট্রোল অনুযায়ী Sensitivity সাজেশন তৈরি করুন</p></div>
+<div class="panel"><div class="row"><div><label for="sensiBrand">ফোনের ব্র্যান্ড</label><select id="sensiBrand"><option>Vivo</option><option>Samsung</option><option>Oppo</option><option>Realme</option><option>Xiaomi / Redmi</option><option>Infinix</option><option>Tecno</option><option>iPhone</option><option>অন্যান্য</option></select></div><div><label for="sensiRam">RAM</label><select id="sensiRam"><option value="2">২ GB</option><option value="3">৩ GB</option><option value="4" selected>৪ GB</option><option value="6">৬ GB</option><option value="8">৮ GB বা বেশি</option></select></div></div>
+<label for="sensiStyle">খেলার ধরন</label><select id="sensiStyle"><option value="head">ক্লোজ রেঞ্জ / হেডশট</option><option value="balanced">ব্যালান্সড</option><option value="scope">স্কোপ ও দূরের টার্গেট</option></select>
+<label for="sensiControl">কন্ট্রোল</label><select id="sensiControl"><option value="2">২ আঙুল</option><option value="3">৩ আঙুল</option><option value="4">৪ আঙুল</option></select>
+<div class="panel"><h3>🪙 আপনার কয়েন: <span id="sensiCoins">০</span></h3><p class="muted">সেন্সি সাজেশন আনলক করতে ১০০ কয়েন লাগবে। উন্নত প্রিসেটের জন্য ১০০০ কয়েনের অপশনও আছে।</p><div class="row"><button onclick="unlockSensi(100)">১০০ কয়েনে আনলক</button><button class="gold" onclick="unlockSensi(1000)">১০০০ কয়েনে Pro আনলক</button></div></div>
+<div id="sensiResult" class="panel"><h3>🔒 সেন্সিটিভিটি লক করা</h3><p>গেম খেলুন বা কয়েন সংগ্রহ করুন, তারপর আনলক করুন।</p></div>
+<div class="ad"><strong>📺 বিজ্ঞাপন দেখে কয়েন</strong><p>Monetag rewarded ad যুক্ত থাকলে বিজ্ঞাপন সম্পূর্ণ দেখার পর কয়েন পাবেন।</p><button class="green" onclick="watchRewardAd()">বিজ্ঞাপন দেখুন · +২০ কয়েন</button><p class="small">আপনার Monetag rewarded-ad zone/script না থাকলে বিজ্ঞাপন চলবে না এবং কয়েন যোগ হবে না।</p></div>
+</div></section>
+<section id="games" class="page">
+<div class="panel"><h2>🎮 গেম সেন্টার</h2><p class="muted">পছন্দের গেম বেছে নিন। আপনার সেরা স্কোর এই ডিভাইসে সেভ হবে।</p><div class="grid gamesgrid">
+<div class="tile"><div class="emoji">🐍</div><h3>স্নেক গেম</h3><p>খাবার খেয়ে সাপ বড় করুন</p><button onclick="openGame('snake')">খেলুন</button></div>
+<div class="tile"><div class="emoji">🏎️</div><h3>গাড়ি রেসিং</h3><p>গাড়ি এড়িয়ে চলুন</p><button onclick="openGame('race')">খেলুন</button></div>
+<div class="tile"><div class="emoji">🫧</div><h3>বুদবুদ শুটার</h3><p>লক্ষ্য করে বুদবুদ ফাটান</p><button onclick="openGame('bubble')">খেলুন</button></div>
+<div class="tile"><div class="emoji">⭕</div><h3>টিক ট্যাক টো</h3><p>কম্পিউটারের সঙ্গে খেলুন</p><button onclick="openGame('ttt')">খেলুন</button></div>
+<div class="tile"><div class="emoji">🧠</div><h3>মেমোরি ম্যাচ</h3><p>একই ছবি খুঁজুন</p><button onclick="openGame('memory')">খেলুন</button></div>
+<div class="tile"><div class="emoji">✊</div><h3>রক-পেপার-সিজার্স</h3><p>কম্পিউটারকে হারান</p><button onclick="openGame('rps')">খেলুন</button></div>
+<div class="tile"><div class="emoji">🔢</div><h3>সংখ্যা অনুমান</h3><p>১–১০০-এর সংখ্যা খুঁজুন</p><button onclick="openGame('number')">খেলুন</button></div>
+<div class="tile"><div class="emoji">🎲</div><h3>সাপ-লুডু</h3><p>পাশা ফেলে গুটি এগিয়ে নিন</p><button onclick="openGame('ludo')">খেলুন</button></div>
+</div></div>
+<div id="gameArea" class="panel hidden"><div class="row"><h2 id="gameTitle">গেম</h2><button class="secondary fixed smallbtn" onclick="closeGame()">✕ বন্ধ</button></div><div id="gameBody"></div></div>
+</section>
+
+<section id="quiz" class="page">
+<div class="panel"><h2>📝 কুইজ চ্যালেঞ্জ</h2><label for="quizCat">বিষয় বেছে নিন</label><select id="quizCat" onchange="startQuiz()"><option value="সব">সব বিষয়</option><option>বাংলাদেশ</option><option>বিজ্ঞান</option><option>সাধারণ জ্ঞান</option><option>গণিত</option></select><div class="row"><span class="tag" id="quizProgress">প্রশ্ন ১</span><span class="tag">স্কোর: <b id="quizScore">০</b></span></div><h3 id="quizQuestion">প্রশ্ন লোড হচ্ছে...</h3><div id="quizOptions"></div><div class="result" id="quizResult">উত্তর বেছে নিন।</div><div class="actions"><button onclick="nextQuiz()">পরের প্রশ্ন →</button><button class="secondary" onclick="startQuiz()">🔀 নতুন কুইজ</button></div></div>
+<div class="ad"><strong>📢 বিজ্ঞাপনের জায়গা</strong>আসল Monetag কোড অনুমোদন পাওয়ার পর যোগ করবেন।</div>
+</section>
+
+<section id="riddles" class="page">
+<div class="panel"><h2>💡 ধাঁধার ভান্ডার</h2><div class="row"><span class="tag" id="riddleProgress"></span><span class="tag">সমাধান: <b id="riddleSolved">০</b></span></div><p class="riddleq" id="riddleQuestion"></p><input id="riddleInput" placeholder="আপনার উত্তর লিখুন"><div class="actions"><button class="green" onclick="checkRiddle()">উত্তর যাচাই</button><button onclick="nextRiddle()">পরের ধাঁধা →</button><button class="secondary" onclick="revealRiddle()">উত্তর দেখুন</button></div><div class="result" id="riddleResult">উত্তর লিখে যাচাই করুন।</div></div>
+</section>
+
+<section id="facts" class="page">
+<div class="panel"><h2>🌍 মজার তথ্য</h2><label>বিষয়</label><select id="factCat" onchange="newFact(true)"><option value="সব">সব বিষয়</option><option>বিজ্ঞান</option><option>প্রকৃতি</option><option>মহাকাশ</option><option>প্রাণী</option></select><div class="big" id="factEmoji">🌎</div><h3 id="factTitle"></h3><p id="factText"></p><div class="actions"><button onclick="newFact()">🔀 আরও তথ্য</button><button class="secondary" onclick="prevFact()">← আগের তথ্য</button></div><span class="tag" id="factCount"></span></div>
+</section>
+
+<section id="daily" class="page">
+<div class="panel"><h2>📅 আজকের দৈনিক চ্যালেঞ্জ</h2><p id="dailyDate"></p><div class="tile"><div class="emoji">🧠</div><h3>দৈনিক কুইজ</h3><p>আজ ৫টি কুইজ প্রশ্নের উত্তর দিন।</p><button onclick="startDaily()">চ্যালেঞ্জ শুরু</button></div><div class="tile" style="margin-top:10px"><div class="emoji">🧩</div><h3>আজকের ধাঁধা</h3><p id="dailyRiddle"></p><button onclick="showPage('riddles')">ধাঁধা সমাধান</button></div><div class="result" id="dailyResult">আজকের চ্যালেঞ্জ সম্পন্ন করে পয়েন্ট অর্জন করুন।</div></div>
+</section>
+
+<section id="profile" class="page">
+<div class="panel"><h2>👤 আমার প্রোফাইল</h2><div class="profiletop"><div class="avatar" id="avatarShow">🦊</div><div><h3 id="profileName">Player</h3><p class="muted" id="profileLevel">লেভেল ১</p></div></div><label for="playerName">প্লেয়ার নাম</label><input id="playerName" maxlength="24" placeholder="আপনার নাম লিখুন"><label>অবতার বেছে নিন</label><div class="actions" id="avatarChoices"></div><button class="green" onclick="saveProfile()">প্রোফাইল সেভ করুন</button><div class="grid" style="margin-top:14px"><div class="tile">⭐ মোট পয়েন্ট<h2 id="profilePoints">০</h2></div><div class="tile">🏆 সেরা স্কোর<h2 id="profileBest">০</h2></div><div class="tile">🎮 গেম খেলা<h2 id="profilePlays">০</h2></div><div class="tile">🧩 ধাঁধা সমাধান<h2 id="profileRiddles">০</h2></div></div></div>
+</section>
+
+<section id="settings" class="page">
+<div class="panel"><h2>⚙️ সেটিংস</h2><label for="themeSelect">ওয়েবসাইটের থিম</label><select id="themeSelect" onchange="setTheme(this.value)"><option value="dark">🌙 ডার্ক</option><option value="light">☀️ লাইট</option><option value="colorful">🌈 রঙিন</option></select><div class="row" style="margin-top:12px"><div><b>🔊 গেমের সাউন্ড</b><p class="small">বাটন ও ফলাফলের শব্দ</p></div><button id="soundToggle" onclick="toggleSound()">চালু</button></div><div class="row" style="margin-top:12px"><div><b>✨ অ্যানিমেশন</b><p class="small">ইন্টারফেসের হালকা ইফেক্ট</p></div><button id="animToggle" onclick="toggleAnim()">চালু</button></div><div class="ad"><strong>📢 Monetag</strong>এই বাক্সটি বিজ্ঞাপনের নমুনা জায়গা, বিজ্ঞাপন নয়। Monetag থেকে পাওয়া আসল কোড পরে বসাতে হবে।</div><button class="danger" onclick="resetData()">সব লোকাল রেকর্ড মুছুন</button></div>
+</section>
+</div>
+<footer>বাংলা Fun Zone © 2026 · বিনোদন ও শেখার জন্য তৈরি<br><span class="small">পয়েন্ট শুধু গেমের স্কোর। কোনো নগদ আয় বা পুরস্কারের প্রতিশ্রুতি নয়।</span></footer>
+<div id="toast" class="toast hidden"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const bn=n=>String(n).replace(/\d/g,d=>'০১২৩৪৫৬৭৮৯'[d]);
+let data={name:'Player',avatar:'🦊',points:0,coins:0,best:0,plays:0,riddles:0,sound:true,anim:true,theme:'dark',dailyDate:'',dailyDone:false};
+try{data={...data,...JSON.parse(localStorage.getItem('bfz_data')||'{}')}}catch(e){}
+function save(){try{localStorage.setItem('bfz_data',JSON.stringify(data))}catch(e){} updateStats()}
+function toast(s){$('toast').textContent=s;$('toast').classList.remove('hidden');setTimeout(()=>$('toast').classList.add('hidden'),2200)}
+function beep(freq=600){if(!data.sound)return;try{let C=window.AudioContext||window.webkitAudioContext,c=new C(),o=c.createOscillator(),g=c.createGain();o.frequency.value=freq;g.gain.value=.04;o.connect(g);g.connect(c.destination);o.start();g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.13);o.stop(c.currentTime+.14);o.onended=()=>c.close()}catch(e){}}
+function award(n=5){data.points+=n;data.coins=(data.coins||0)+10;data.best=Math.max(data.best,data.points);save();beep(760);toast('🎉 +'+bn(n)+' পয়েন্ট · 🪙 +১০ কয়েন!')}
+function updateStats(){let level=1+Math.floor(data.points/100),prog=data.points%100;$('headCoins').textContent=bn(data.coins||0);if($('sensiCoins'))$('sensiCoins').textContent=bn(data.coins||0);$('headPoints').textContent=bn(data.points);$('homePoints').textContent=bn(data.points);$('homeLevel').textContent=bn(level);$('homeBest').textContent=bn(data.best);$('levelBar').style.width=prog+'%';$('levelText').textContent='লেভেল '+bn(level)+' · পরের লেভেলের জন্য '+bn(100-prog)+' পয়েন্ট';$('profileName').textContent=data.name;$('welcome').textContent='স্বাগতম, '+data.name+'! 🎉';$('avatarShow').textContent=data.avatar;$('profileLevel').textContent='লেভেল '+bn(level);$('profilePoints').textContent=bn(data.points);$('profileBest').textContent=bn(data.best);$('profilePlays').textContent=bn(data.plays);$('profileRiddles').textContent=bn(data.riddles)}
+let sensiUnlocked=Number(localStorage.getItem('bfz_sensi_unlocked')||0);
+function unlockSensi(cost){if(sensiUnlocked>=cost){renderSensi();toast('সেন্সি আগে থেকেই আনলক করা আছে!');return}if((data.coins||0)<cost){toast('আরও কয়েন লাগবে! গেম খেলুন বা বিজ্ঞাপন দেখুন।');return}data.coins-=cost;sensiUnlocked=cost;try{localStorage.setItem('bfz_sensi_unlocked',String(cost))}catch(e){}save();renderSensi();beep(900);toast('🎯 সেন্সি আনলক হয়েছে!')}
+function renderSensi(){if(sensiUnlocked<=0){$('sensiResult').innerHTML='<h3>🔒 সেন্সিটিভিটি লক করা</h3><p>১০০ বা ১০০০ কয়েন দিয়ে আনলক করুন।</p>';return}
+let ram=Number($('sensiRam').value),style=$('sensiStyle').value,control=Number($('sensiControl').value);
+let general=style==='head'?Math.min(200,185+(ram>=6?5:0)):style==='scope'?Math.min(200,155+(ram>=6?5:0)):170+(ram>=6?5:0);
+let red=style==='head'?Math.min(200,general+5):style==='scope'?145:general-5;
+let preset=sensiUnlocked>=1000?'🔥 Pro Preset':'⭐ Basic Preset';
+$('sensiResult').innerHTML='<h3>✅ '+preset+' · '+$('sensiBrand').value+'</h3><p class="small">শুরু করার সাজেশন—প্রশিক্ষণ মাঠে পরীক্ষা করে ৫–১০ করে পরিবর্তন করুন।</p><div class="grid3"><div class="tile">General<h2>'+general+'</h2></div><div class="tile">Red Dot<h2>'+red+'</h2></div><div class="tile">2x Scope<h2>'+Math.max(100,red-20)+'</h2></div><div class="tile">4x Scope<h2>'+Math.max(80,red-35)+'</h2></div><div class="tile">Sniper<h2>'+Math.max(50,red-65)+'</h2></div><div class="tile">Free Look<h2>150</h2></div></div><p>কন্ট্রোল: '+control+' আঙুল · RAM: '+ram+' GB</p><button onclick="copySensi()">📋 সেন্সি কপি করুন</button>'}
+function copySensi(){let t='Free Fire Sensitivity\\nGeneral: '+$('sensiResult').querySelectorAll('.tile h2')[0].textContent+'\\nRed Dot: '+$('sensiResult').querySelectorAll('.tile h2')[1].textContent+'\\n2x Scope: '+$('sensiResult').querySelectorAll('.tile h2')[2].textContent+'\\n4x Scope: '+$('sensiResult').querySelectorAll('.tile h2')[3].textContent+'\\nSniper: '+$('sensiResult').querySelectorAll('.tile h2')[4].textContent+'\\nFree Look: 150';if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast('সেন্সি কপি হয়েছে!')).catch(()=>toast(t));else toast(t)}
+function watchRewardAd(){if(typeof window.show_11892992!=='function'){toast('Monetag rewarded ad কোড যুক্ত করা নেই।');return}window.show_11892992('pop').then(()=>{data.coins=(data.coins||0)+20;save();toast('বিজ্ঞাপন সম্পন্ন! +২০ কয়েন')}).catch(()=>toast('বিজ্ঞাপন সম্পন্ন হয়নি, কয়েন যোগ হয়নি।'))}
+function showPage(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===id));window.scrollTo({top:0,behavior:data.anim?'smooth':'auto'});beep(400)}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>showPage(b.dataset.page));
+function setTheme(t){data.theme=t;document.body.dataset.theme=t;save();$('themeSelect').value=t}
+function toggleSound(){data.sound=!data.sound;$('soundToggle').textContent=data.sound?'চালু':'বন্ধ';save();beep()}
+function toggleAnim(){data.anim=!data.anim;$('animToggle').textContent=data.anim?'চালু':'বন্ধ';save()}
+function saveProfile(){data.name=$('playerName').value.trim()||'Player';save();toast('প্রোফাইল সেভ হয়েছে!')}
+const avatars=['🦊','🐼','🐯','🐸','🐵','🐱','🐲','🦁'];
+function setupAvatars(){$('avatarChoices').innerHTML='';avatars.forEach(a=>{let b=document.createElement('button');b.className='secondary';b.textContent=a;b.onclick=()=>{data.avatar=a;$('avatarShow').textContent=a;save()};$('avatarChoices').appendChild(b)});$('playerName').value=data.name}
+function resetData(){if(confirm('সব পয়েন্ট ও রেকর্ড মুছবেন?')){localStorage.removeItem('bfz_data');location.reload()}}
+setTheme(data.theme||'dark');$('soundToggle').textContent=data.sound?'চালু':'বন্ধ';$('animToggle').textContent=data.anim?'চালু':'বন্ধ';setupAvatars();updateStats();
+
+// RIDDLES
+const riddles=[
+['যত কাটবে, তত বড় হবে। সেটি কী?',['গর্ত']],
+['দাঁত আছে, কিন্তু কামড়াতে পারে না। কী?',['চিরুনি']],
+['নিজে ভিজে অন্যকে শুকায়। কী?',['তোয়ালে','গামছা']],
+['হাত আছে, পা নেই; তবু সময় বলে। কী?',['ঘড়ি','ঘড়ি','ক্লক']],
+['পানি খেলে মরে, বাতাস পেলে বাঁচে। কী?',['আগুন']],
+['ডানা নেই, তবু আকাশে ওড়ে। কী?',['ঘুড়ি','ঘুড়ি']],
+['দিনে লুকায়, রাতে জ্বলে। কী?',['তারা','নক্ষত্র']],
+['এক পায়ে দাঁড়িয়ে থাকে, মাথায় ছাতা। কী?',['ছাতা']],
+['যতই নাও, ততই পেছনে পড়ে থাকে। কী?',['পদক্ষেপ','পায়ের ছাপ','পায়ের ছাপ']],
+['মাথা আছে, লেজ আছে, শরীর নেই। কী?',['মুদ্রা','কয়েন','কয়েন']],
+['মুখ নেই, তবু প্রতিধ্বনি ফিরিয়ে দেয়। কী?',['প্রতিধ্বনি']],
+['কোন জিনিস ভাঙলে তবেই ব্যবহার করা যায়?',['ডিম']],
+['কোন মাসে ২৮ দিন আছে?',['সব মাস','প্রতি মাস']],
+['সবুজ ঘর, লাল ঘর, কালো বাচ্চা। কী?',['তরমুজ']],
+['যার চোখ আছে, কিন্তু দেখতে পায় না। কী?',['সুঁই']],
+['পা নেই, তবু চলে; মুখ নেই, তবু শব্দ করে। কী?',['নদী','ঘড়ি','ঘড়ি']],
+['সাদা মাঠে কালো বীজ, হাতে হাতে ছড়ায়। কী?',['লেখা','অক্ষর','বই']],
+['যত বেশি শুকায়, তত বেশি ভিজে। কী?',['তোয়ালে','গামছা']],
+['কোন জিনিসের গলা আছে, মাথা নেই?',['বোতল']],
+['সবাই আমাকে দেখে, আমি কাউকে দেখি না। কী?',['আয়না','আয়না']]
+];
+let ri=0,solvedR=new Set();
+function showRiddle(){ $('riddleProgress').textContent='ধাঁধা '+bn(ri+1)+' / '+bn(riddles.length);$('riddleQuestion').textContent=riddles[ri][0];$('riddleInput').value='';$('riddleResult').textContent=solvedR.has(ri)?'আগেই সমাধান করেছেন!':'আপনার উত্তর লিখুন।';$('riddleSolved').textContent=bn(solvedR.size)}
+function checkRiddle(){let v=$('riddleInput').value.trim().toLowerCase();if(!v){$('riddleResult').textContent='আগে উত্তর লিখুন।';return}if(riddles[ri][1].some(a=>v.includes(a.toLowerCase()))){$('riddleResult').textContent='🎉 সঠিক উত্তর!';if(!solvedR.has(ri)){solvedR.add(ri);data.riddles++;award(5)}showRiddle()}else $('riddleResult').textContent='আবার চেষ্টা করুন, অথবা উত্তর দেখুন।';}
+function revealRiddle(){$('riddleResult').textContent='উত্তর: '+riddles[ri][1][0]}
+function nextRiddle(){ri=(ri+1)%riddles.length;showRiddle();beep(500)}
+showRiddle();
+
+// QUIZ with category and shuffled pool
+const questions=[
+['বাংলাদেশ','বাংলাদেশের রাজধানী কোনটি?',['ঢাকা','খুলনা','সিলেট','রাজশাহী'],0],
+['বাংলাদেশ','বাংলাদেশের জাতীয় ফুল কোনটি?',['গোলাপ','শাপলা','জবা','সূর্যমুখী'],1],
+['বাংলাদেশ','বাংলাদেশের জাতীয় ফল কোনটি?',['আম','কাঁঠাল','কলা','লিচু'],1],
+['বাংলাদেশ','বাংলাদেশের জাতীয় পাখি কোনটি?',['দোয়েল','কাক','ময়না','টিয়া'],0],
+['বাংলাদেশ','আন্তর্জাতিক মাতৃভাষা দিবস কবে?',['২১ ফেব্রুয়ারি','২৬ মার্চ','১৬ ডিসেম্বর','১ মে'],0],
+['বিজ্ঞান','পানির রাসায়নিক সংকেত কী?',['CO2','H2O','O2','NaCl'],1],
+['বিজ্ঞান','উদ্ভিদ কোন প্রক্রিয়ায় খাদ্য তৈরি করে?',['শ্বসন','সালোকসংশ্লেষ','বাষ্পীভবন','পরিপাক'],1],
+['বিজ্ঞান','মানুষ শ্বাস নিতে কোন গ্যাস ব্যবহার করে?',['নাইট্রোজেন','অক্সিজেন','হিলিয়াম','হাইড্রোজেন'],1],
+['বিজ্ঞান','পৃথিবীর প্রাকৃতিক উপগ্রহ কোনটি?',['সূর্য','মঙ্গল','চাঁদ','শুক্র'],2],
+['বিজ্ঞান','পানি সাধারণ বায়ুচাপে কত ডিগ্রিতে জমে?',['০°C','১০°C','৫০°C','১০০°C'],0],
+['সাধারণ জ্ঞান','সবচেয়ে বড় মহাসাগর কোনটি?',['আটলান্টিক','ভারত','প্রশান্ত','আর্কটিক'],2],
+['সাধারণ জ্ঞান','এক সপ্তাহে কয় দিন?',['৫','৬','৭','৮'],2],
+['সাধারণ জ্ঞান','সূর্য কোন দিকে ওঠে?',['পশ্চিম','উত্তর','দক্ষিণ','পূর্ব'],3],
+['সাধারণ জ্ঞান','মঙ্গল গ্রহকে কী বলা হয়?',['নীল গ্রহ','লাল গ্রহ','সবুজ গ্রহ','সোনালি গ্রহ'],1],
+['সাধারণ জ্ঞান','এক বছরে সাধারণত কয় মাস?',['১০','১১','১২','১৩'],2],
+['গণিত','১২ + ৮ = কত?',['১৮','২০','২১','২২'],1],
+['গণিত','৯ × ৬ = কত?',['৪৫','৫৪','৫৬','৬৩'],1],
+['গণিত','১০০-এর অর্ধেক কত?',['২৫','৪০','৫০','৬০'],2],
+['গণিত','বর্গের বাহু ৪ হলে পরিসীমা কত?',['৮','১২','১৬','২০'],2],
+['গণিত','১৫ - ৭ = কত?',['৬','৭','৮','৯'],2]
+];
+let quizPool=[],qi=0,quizScore=0,quizAnswered=false,quizDaily=false,dailyCount=0;
+function shuffle(a){return a.slice().sort(()=>Math.random()-.5)}
+function startQuiz(daily=false){quizDaily=daily;dailyCount=0;let cat=$('quizCat').value;quizPool=shuffle(questions.filter(q=>cat==='সব'||q[0]===cat));qi=0;quizScore=0;quizAnswered=false;renderQuiz()}
+function renderQuiz(){if(qi>=quizPool.length||(quizDaily&&dailyCount>=5)){ $('quizQuestion').textContent='কুইজ শেষ! আপনার স্কোর '+bn(quizScore)+' / '+bn(quizDaily?5:quizPool.length);$('quizOptions').innerHTML='';$('quizResult').textContent='আবার খেলতে নতুন কুইজ চাপুন।';$('quizProgress').textContent='সম্পন্ন';return}
+let q=quizPool[qi];$('quizProgress').textContent='প্রশ্ন '+bn(qi+1)+' / '+bn(quizDaily?5:quizPool.length)+' · '+q[0];$('quizQuestion').textContent=q[1];$('quizScore').textContent=bn(quizScore);$('quizResult').textContent='একটি উত্তর বেছে নিন।';$('quizOptions').innerHTML='';quizAnswered=false;
+q[2].forEach((op,i)=>{let b=document.createElement('button');b.className='quizopt';b.textContent=op;b.onclick=()=>answerQuiz(i,b);$('quizOptions').appendChild(b)})}
+function answerQuiz(i,btn){if(quizAnswered)return;quizAnswered=true;let q=quizPool[qi];let buttons=[...$('quizOptions').children];buttons[q[3]].classList.add('correct');if(i===q[3]){quizScore++;$('quizResult').textContent='🎉 সঠিক উত্তর!';award(3)}else{$('quizResult').textContent='সঠিক উত্তর: '+q[2][q[3]];btn.classList.add('wrong')} }
+function nextQuiz(){if(!quizAnswered){toast('আগে উত্তর বেছে নিন');return}qi++;if(quizDaily)dailyCount++;renderQuiz()}
+$('quizCat').value='সব';startQuiz();
+
+// FACTS
+const facts=[
+['বিজ্ঞান','🧪','পানি','বিশুদ্ধ পানি স্বাভাবিক বায়ুচাপে প্রায় ০° সেলসিয়াসে জমে বরফ হয়।'],
+['প্রকৃতি','🌳','গাছ','অনেক গাছ সূর্যের আলো ব্যবহার করে সালোকসংশ্লেষের মাধ্যমে খাদ্য তৈরি করে।'],
+['মহাকাশ','☀️','সূর্যের আলো','সূর্যের আলো পৃথিবীতে পৌঁছাতে প্রায় ৮ মিনিট ২০ সেকেন্ড লাগে।'],
+['প্রাণী','🐙','অক্টোপাস','অক্টোপাসের তিনটি হৃদপিণ্ড থাকে।'],
+['মহাকাশ','🔴','মঙ্গল','মঙ্গল গ্রহকে তার লালচে রঙের জন্য লাল গ্রহ বলা হয়।'],
+['প্রকৃতি','🌊','প্রশান্ত মহাসাগর','প্রশান্ত মহাসাগর পৃথিবীর সবচেয়ে বড় মহাসাগর।'],
+['প্রাণী','🐧','পেঙ্গুইন','পেঙ্গুইন উড়তে পারে না, তবে পানিতে দক্ষ সাঁতারু।'],
+['বিজ্ঞান','🌍','পৃথিবী','পৃথিবী নিজের অক্ষের চারদিকে ঘোরে এবং সূর্যকে প্রদক্ষিণ করে।'],
+['প্রাণী','🐝','মৌমাছি','মৌমাছি ফুল থেকে মধু তৈরির উপাদান সংগ্রহ করে।'],
+['মহাকাশ','🌙','চাঁদ','চাঁদ পৃথিবীর প্রাকৃতিক উপগ্রহ।'],
+['বিজ্ঞান','🌈','রংধনু','বৃষ্টির ফোঁটায় আলোর প্রতিসরণ ও প্রতিফলনের ফলে রংধনু দেখা যায়।'],
+['প্রাণী','🦒','জিরাফ','জিরাফ স্থলজ প্রাণীদের মধ্যে সবচেয়ে লম্বা।']
+];let fi=0,factHistory=[];
+function factPool(){let cat=$('factCat').value;return facts.map((f,i)=>({f,i})).filter(x=>cat==='সব'||x.f[0]===cat)}
+function newFact(reset=false){let pool=factPool();if(!pool.length)return;if(reset||!pool.some(x=>x.i===fi)){fi=pool[Math.floor(Math.random()*pool.length)].i}else{let choices=pool.filter(x=>x.i!==fi);fi=(choices[Math.floor(Math.random()*choices.length)]||pool[0]).i}factHistory.push(fi);renderFact()}
+function renderFact(){let f=facts[fi];$('factEmoji').textContent=f[1];$('factTitle').textContent=f[2];$('factText').textContent=f[3];$('factCount').textContent='তথ্য '+bn(fi+1)+' / '+bn(facts.length)}
+function prevFact(){if(factHistory.length>1){factHistory.pop();fi=factHistory[factHistory.length-1];renderFact()}else toast('আগের তথ্য নেই')}
+$('factCat').value='সব';newFact(true);
+
+// DAILY
+function today(){let d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
+function setupDaily(){if(data.dailyDate!==today()){data.dailyDate=today();data.dailyDone=false;save()}$('dailyDate').textContent='তারিখ: '+new Date().toLocaleDateString('bn-BD');$('dailyRiddle').textContent=riddles[(new Date().getDate()+new Date().getMonth())%riddles.length][0];$('dailyResult').textContent=data.dailyDone?'✅ আজকের দৈনিক কুইজ সম্পন্ন হয়েছে!':'আজকের কুইজ সম্পন্ন করলে বোনাস পয়েন্ট পাবেন।'}
+function startDaily(){if(data.dailyDone){toast('আজকের চ্যালেঞ্জ ইতিমধ্যে শেষ!');return}quizPool=shuffle(questions).slice(0,5);qi=0;quizScore=0;quizDaily=true;dailyCount=0;showPage('quiz');renderQuiz();$('quizResult').textContent='দৈনিক চ্যালেঞ্জ শুরু হয়েছে!'}
+const oldRenderQuiz=renderQuiz;
+renderQuiz=function(){if(quizDaily&&qi>=5){$('quizQuestion').textContent='দৈনিক কুইজ শেষ! স্কোর '+bn(quizScore)+' / ৫';$('quizOptions').innerHTML='';$('quizProgress').textContent='দৈনিক চ্যালেঞ্জ সম্পন্ন';$('quizResult').textContent='';if(!data.dailyDone){data.dailyDone=true;award(15);setupDaily()}return}oldRenderQuiz()};
+setupDaily();
+
+// GAME ENGINE
+let currentGame='',cleanupGame=null;
+function closeGame(){if(cleanupGame){cleanupGame();cleanupGame=null}currentGame='';$('gameArea').classList.add('hidden')}
+function openGame(id){closeGame();currentGame=id;$('gameArea').classList.remove('hidden');const names={snake:'🐍 স্নেক গেম',race:'🏎️ গাড়ি রেসিং',bubble:'🫧 বুদবুদ শুটার',ttt:'⭕ টিক ট্যাক টো',memory:'🧠 মেমোরি ম্যাচ',rps:'✊ রক-পেপার-সিজার্স',number:'🔢 সংখ্যা অনুমান',ludo:'🎲 সাপ-লুডু'};$('gameTitle').textContent=names[id];let body=$('gameBody');body.innerHTML='';data.plays++;save();if(id==='snake')snakeGame(body);if(id==='race')raceGame(body);if(id==='bubble')bubbleGame(body);if(id==='ttt')tttGame(body);if(id==='memory')memoryGame(body);if(id==='rps')rpsGame(body);if(id==='number')numberGame(body);if(id==='ludo')ludoGame(body);$('gameArea').scrollIntoView({behavior:'smooth',block:'start'})}
+function scoreGame(s){data.best=Math.max(data.best,s);save()}
+
+function numberGame(b){let secret=Math.floor(Math.random()*100)+1,tries=0;b.innerHTML='<p>১ থেকে ১০০-এর মধ্যে সংখ্যাটি খুঁজুন।</p><input id="gn" type="number" placeholder="সংখ্যা লিখুন"><button id="gcheck">উত্তর দিন</button> <button class="secondary" id="grestart">নতুন সংখ্যা</button><div class="result" id="gres">শুরু করুন!</div>';function reset(){secret=Math.floor(Math.random()*100)+1;tries=0;$('gn').value='';$('gres').textContent='নতুন সংখ্যা তৈরি হয়েছে!'}$('gcheck').onclick=()=>{let n=+$('gn').value;tries++;if(n===secret){$('gres').textContent='সঠিক! 🎉';award(5);scoreGame(100-tries)}else $('gres').textContent=n<secret?'আরও বড় সংখ্যা!':'আরও ছোট সংখ্যা!'};$('grestart').onclick=reset}
+function rpsGame(b){b.innerHTML='<p>আপনার চাল বেছে নিন:</p><div class="actions"><button data-r="রক">✊ রক</button><button data-r="পেপার">✋ পেপার</button><button data-r="কাঁচি">✌️ কাঁচি</button></div><div class="result" id="rr">খেলা শুরু করুন।</div>';b.querySelectorAll('[data-r]').forEach(x=>x.onclick=()=>{let u=x.dataset.r,bot=['রক','পেপার','কাঁচি'][Math.floor(Math.random()*3)],win=u===bot?'ড্র':((u==='রক'&&bot==='কাঁচি')||(u==='পেপার'&&bot==='রক')||(u==='কাঁচি'&&bot==='পেপার'))?'আপনি জিতেছেন!':'কম্পিউটার জিতেছে!';$('rr').textContent='আপনি: '+u+' · কম্পিউটার: '+bot+' — '+win;if(win==='আপনি জিতেছেন!')award(3)})}
+function tttGame(b){b.innerHTML='<p>আপনি X, কম্পিউটার O।</p><div class="board" id="gb"></div><div class="result" id="gtres">আপনার চাল!</div><button id="gtreset">আবার খেলুন</button>';let a,over;function reset(){a=Array(9).fill('');over=false;draw()}function win(p){return [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]].some(l=>l.every(i=>a[i]===p))}function draw(){$('gb').innerHTML='';a.forEach((v,i)=>{let x=document.createElement('button');x.className='cell';x.textContent=v;x.onclick=()=>move(i);$('gb').appendChild(x)})}function end(t,w){over=true;$('gtres').textContent=t;if(w)award(5);draw()}function move(i){if(over||a[i])return;a[i]='X';if(win('X'))return end('আপনি জিতেছেন! 🎉',true);if(a.every(Boolean))return end('ড্র হয়েছে!');let free=a.map((v,i)=>v?null:i).filter(x=>x!==null);a[free[Math.floor(Math.random()*free.length)]]='O';if(win('O'))return end('কম্পিউটার জিতেছে!',false);if(a.every(Boolean))return end('ড্র হয়েছে!');draw()}$('gtreset').onclick=reset;reset()}
+function memoryGame(b){let icons=['🍎','🚗','🐱','⚽','🌟','🍉','🎈','🐸'],cards=shuffle([...icons,...icons]),picked=[],matched=new Set(),busy=false,moves=0;b.innerHTML='<p>একই ছবি মিলিয়ে নিন।</p><div class="memory" id="gm"></div><div class="result" id="gmres">চাল: ০</div><button id="gmreset">নতুন গেম</button>';function draw(){$('gm').innerHTML='';cards.forEach((v,i)=>{let x=document.createElement('button');x.className='mem';x.textContent=matched.has(i)||picked.includes(i)?v:'❔';x.onclick=()=>pick(i);$('gm').appendChild(x)})}function pick(i){if(busy||matched.has(i)||picked.includes(i))return;picked.push(i);draw();if(picked.length===2){moves++;if(cards[picked[0]]===cards[picked[1]]){picked.forEach(x=>matched.add(x));picked=[];$('gmres').textContent='চাল: '+bn(moves)+' · মিল: '+bn(matched.size/2);if(matched.size===16){$('gmres').textContent='অভিনন্দন! সব মিলেছে 🎉';award(15)}draw()}else{busy=true;setTimeout(()=>{picked=[];busy=false;$('gmres').textContent='চাল: '+bn(moves);draw()},650)}}}function reset(){cards=shuffle([...icons,...icons]);picked=[];matched=new Set();busy=false;moves=0;draw();$('gmres').textContent='চাল: ০'}$('gmreset').onclick=reset;draw()}
+function ludoGame(b){let pos=0,bot=0,done=false;b.innerHTML='<p>সরল সাপ-লুডু: পাশা ফেলুন, ১০০ ঘরে আগে পৌঁছানোর চেষ্টা করুন। কিছু ঘরে সাপ ও মই আছে।</p><div class="big">🎲</div><div class="result" id="lres">আপনার গুটি: ০/১০০ · কম্পিউটার: ০/১০০</div><button id="lroll">পাশা ফেলুন 🎲</button> <button class="secondary" id="lnew">নতুন খেলা</button>';let snakes={17:7,54:34,62:19,98:79},ladders={3:22,8:30,28:84,51:67,71:91};function status(t){$('lres').textContent=t+' | আপনার: '+pos+'/100 · কম্পিউটার: '+bot+'/100'}function roll(){if(done)return;let d=Math.floor(Math.random()*6)+1;pos=Math.min(100,pos+d);if(snakes[pos])pos=snakes[pos];else if(ladders[pos])pos=ladders[pos];if(pos===100){done=true;status('🎉 আপনি জিতেছেন!');award(20);return}let bd=Math.floor(Math.random()*6)+1;bot=Math.min(100,bot+bd);if(snakes[bot])bot=snakes[bot];else if(ladders[bot])bot=ladders[bot];if(bot===100){done=true;status('কম্পিউটার জিতেছে!');return}status('আপনার পাশা '+d+' · কম্পিউটারের পাশা '+bd)}$('lroll').onclick=roll;$('lnew').onclick=()=>{pos=0;bot=0;done=false;status('নতুন খেলা শুরু!')}}
+function snakeGame(b){b.innerHTML='<p class="racehint">স্ক্রিনের দিক-নির্দেশ বাটন চাপুন। কম্পিউটারে কিবোর্ডের তীরচিহ্নও কাজ করে।</p><div class="canvasbox"><canvas id="snakeCanvas" width="300" height="300"></canvas></div><div class="snakepad"><span></span><button data-dir="up">⬆️</button><span></span><button data-dir="left">⬅️</button><button data-dir="down">⬇️</button><button data-dir="right">➡️</button></div><div class="result" id="snres">স্কোর: ০</div><button id="snstart">শুরু / আবার শুরু</button>';let c=$('snakeCanvas'),ctx=c.getContext('2d'),timer=null,snake,dir,food,score,over=true;function reset(){clearInterval(timer);snake=[{x:5,y:5},{x:4,y:5},{x:3,y:5}];dir={x:1,y:0};food={x:10,y:8};score=0;over=false;draw();timer=setInterval(tick,145);$('snres').textContent='স্কোর: ০'}function draw(){ctx.fillStyle='#071326';ctx.fillRect(0,0,300,300);ctx.fillStyle='#16385c';for(let x=0;x<15;x++)for(let y=0;y<15;y++)ctx.fillRect(x*20+1,y*20+1,18,18);ctx.fillStyle='#ff5579';ctx.fillRect(food.x*20+2,food.y*20+2,16,16);snake.forEach((p,i)=>{ctx.fillStyle=i?'#00c990':'#b5ff55';ctx.fillRect(p.x*20+2,p.y*20+2,16,16)})}function tick(){let h={x:snake[0].x+dir.x,y:snake[0].y+dir.y};if(h.x<0||h.y<0||h.x>=15||h.y>=15||snake.some(p=>p.x===h.x&&p.y===h.y)){clearInterval(timer);over=true;$('snres').textContent='গেম শেষ! স্কোর: '+bn(score);scoreGame(score);return}snake.unshift(h);if(h.x===food.x&&h.y===food.y){score+=10;food={x:Math.floor(Math.random()*15),y:Math.floor(Math.random()*15)};award(1);$('snres').textContent='স্কোর: '+bn(score)}else snake.pop();draw()}function change(d){let nd={up:{x:0,y:-1},down:{x:0,y:1},left:{x:-1,y:0},right:{x:1,y:0}}[d];if(nd&&!(nd.x===-dir.x&&nd.y===-dir.y))dir=nd}b.querySelectorAll('[data-dir]').forEach(x=>x.onclick=()=>change(x.dataset.dir));let key=e=>{let map={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right'};if(map[e.key])change(map[e.key])};document.addEventListener('keydown',key);$('snstart').onclick=reset;cleanupGame=()=>{clearInterval(timer);document.removeEventListener('keydown',key)};reset()}
+function raceGame(b){b.innerHTML='<p class="racehint">বাম/ডান বাটন দিয়ে গাড়ি সরান। অন্য গাড়ির সঙ্গে ধাক্কা এড়িয়ে চলুন।</p><div class="canvasbox"><canvas id="raceCanvas" width="300" height="420"></canvas></div><div class="actions"><button id="rl">⬅️ বামে</button><button id="rr">ডানে ➡️</button></div><div class="result" id="raceres">স্কোর: ০</div><button id="racestart">রেস শুরু / আবার শুরু</button>';let c=$('raceCanvas'),ctx=c.getContext('2d'),timer=null,x=130,obs=[],score=0,over=true,frame=0;function draw(){ctx.fillStyle='#263b43';ctx.fillRect(0,0,300,420);ctx.fillStyle='#d8d9c5';ctx.fillRect(43,0,5,420);ctx.fillRect(252,0,5,420);ctx.fillStyle='#b5b5b5';for(let y=(frame%60)-60;y<420;y+=60)ctx.fillRect(148,y,4,30);ctx.fillStyle='#ffcc35';ctx.fillRect(x,340,32,55);ctx.fillStyle='#fc466b';obs.forEach(o=>{ctx.fillRect(o.x,o.y,32,52);ctx.fillStyle='#fff';ctx.fillRect(o.x+5,o.y+8,6,8);ctx.fillRect(o.x+21,o.y+8,6,8);ctx.fillStyle='#fc466b'})}function reset(){clearInterval(timer);x=130;obs=[];score=0;frame=0;over=false;draw();timer=setInterval(tick,45);$('raceres').textContent='স্কোর: ০'}function tick(){frame+=3;if(frame%32===0)obs.push({x:55+Math.floor(Math.random()*4)*48,y:-60});obs.forEach(o=>o.y+=4+Math.min(5,score/100));obs=obs.filter(o=>o.y<450);if(obs.some(o=>x<o.x+30&&x+30>o.x&&340<o.y+50&&395>o.y)){clearInterval(timer);over=true;$('raceres').textContent='ধাক্কা! রেস শেষ, স্কোর '+bn(score);scoreGame(score);return}score++;if(score%100===0)award(2);$('raceres').textContent='স্কোর: '+bn(score);draw()}function left(){x=Math.max(50,x-48);draw()}function right(){x=Math.min(220,x+48);draw()}$('rl').onclick=left;$('rr').onclick=right;$('racestart').onclick=reset;let key=e=>{if(e.key==='ArrowLeft')left();if(e.key==='ArrowRight')right()};document.addEventListener('keydown',key);cleanupGame=()=>{clearInterval(timer);document.removeEventListener('keydown',key)};reset()}
+function bubbleGame(b){b.innerHTML='<p>রঙিন বুদবুদের ওপর চাপ দিন। একই রঙের কাছাকাছি বুদবুদ ফাটিয়ে পয়েন্ট নিন।</p><div class="canvasbox"><canvas id="bubbleCanvas" width="320" height="380"></canvas></div><div class="result" id="bubres">স্কোর: ০ · বুদবুদে চাপ দিন</div><button id="bubnew">নতুন বোর্ড</button>';let c=$('bubbleCanvas'),ctx=c.getContext('2d'),balls=[],score=0;const colors=['#ff4e80','#ffc83d','#42d8ff','#6ee86e','#b47aff'];function reset(){score=0;balls=[];for(let r=0;r<6;r++)for(let col=0;col<8;col++)balls.push({x:22+col*39,y:24+r*37,r:15,color:colors[Math.floor(Math.random()*colors.length)]});draw();$('bubres').textContent='স্কোর: ০ · বুদবুদে চাপ দিন'}function draw(){ctx.fillStyle='#071326';ctx.fillRect(0,0,320,380);balls.forEach(o=>{ctx.beginPath();ctx.arc(o.x,o.y,o.r,0,Math.PI*2);ctx.fillStyle=o.color;ctx.fill();ctx.beginPath();ctx.arc(o.x-4,o.y-5,4,0,Math.PI*2);ctx.fillStyle='#ffffff80';ctx.fill()})}function tap(e){let rect=c.getBoundingClientRect(),px=(e.clientX-rect.left)*c.width/rect.width,py=(e.clientY-rect.top)*c.height/rect.height;let i=balls.findIndex(o=>Math.hypot(o.x-px,o.y-py)<o.r+3);if(i<0)return;let color=balls[i].color,group=[i],seen=new Set(group);for(let k=0;k<group.length;k++){let a=balls[group[k]];balls.forEach((o,j)=>{if(!seen.has(j)&&o.color===color&&Math.hypot(o.x-a.x,o.y-a.y)<43){seen.add(j);group.push(j)}})}if(group.length<2){$('bubres').textContent='একই রঙের কাছাকাছি বুদবুদ খুঁজুন!';return}balls=balls.filter((o,j)=>!seen.has(j));score+=group.length*5;award(Math.min(5,group.length));$('bubres').textContent='স্কোর: '+bn(score)+' · '+bn(group.length)+'টি বুদবুদ ফেটেছে!';if(!balls.length){$('bubres').textContent+=' বোর্ড পরিষ্কার!';award(10)}draw()}c.addEventListener('click',tap);$('bubnew').onclick=reset;cleanupGame=()=>c.removeEventListener('click',tap);reset()}
+
+// Search all visible content/pages
+let searchBox=document.createElement('div');searchBox.className='panel';searchBox.innerHTML='<h2>🔎 খুঁজুন</h2><input id="searchInput" placeholder="গেম, কুইজ, ধাঁধা বা তথ্য খুঁজুন..."><div id="searchResults"></div>';document.querySelector('.wrap').appendChild(searchBox);searchBox.classList.add('hidden');
+let searchNav=document.createElement('button');searchNav.textContent='🔎 সার্চ';searchNav.onclick=()=>{searchBox.classList.toggle('hidden');if(!searchBox.classList.contains('hidden')){$('searchInput').focus();window.scrollTo({top:0,behavior:'smooth'})}};$('nav').appendChild(searchNav);
+$('searchInput').oninput=()=>{let q=$('searchInput').value.trim().toLowerCase(),items=[['গেম','snake game racing bubble shooter tic tac toe মেমোরি সাপ গাড়ি রেসিং বুদবুদ শুটার','games'],['কুইজ','বাংলাদেশ বিজ্ঞান সাধারণ জ্ঞান গণিত প্রশ্ন','quiz'],['ধাঁধা','গর্ত চিরুনি তোয়ালে আগুন সুঁই ধাঁধা','riddles'],['মজার তথ্য','মহাকাশ প্রাণী প্রকৃতি বিজ্ঞান পৃথিবী','facts'],['দৈনিক চ্যালেঞ্জ','আজকের কুইজ দৈনিক','daily']].filter(x=>!q||x[0].includes(q)||x[1].toLowerCase().includes(q));$('searchResults').innerHTML='';items.forEach(x=>{let b=document.createElement('button');b.className='listitem';b.style.width='100%';b.style.color='var(--text)';b.style.textAlign='left';b.textContent='➡️ '+x[0];b.onclick=()=>{showPage(x[2]);searchBox.classList.add('hidden')};$('searchResults').appendChild(b)});if(!items.length)$('searchResults').textContent='কিছু পাওয়া যায়নি। অন্য শব্দ দিয়ে চেষ্টা করুন।'};
+setTimeout(()=>{$('loader').style.opacity='0';setTimeout(()=>$('loader').classList.add('hidden'),450)},800);
+
+try{renderSensi()}catch(e){}
+</script>
+
+<button id="floatingProfile" class="floating-profile" type="button" aria-label="প্রোফাইল খুলুন" title="প্রোফাইল"
+ onclick="document.querySelector('[data-page=profile]').click()">👤<span>প্রোফাইল</span></button>
+
+<button id="floatingHome" class="floating-home" type="button" aria-label="হোম খুলুন" title="হোম"
+ onclick="document.querySelector('[data-page=home]').click()">🏠<span>হোম</span></button>
+
+<button id="floatingSettings" class="floating-settings" type="button" aria-label="সেটিংস খুলুন" title="সেটিংস"
+ onclick="(document.querySelector('[data-page=settings]') || document.querySelector('[data-page=setting]') || document.querySelector('[data-page=profile]')).click()">⚙️<span>সেটিংস</span></button>
+</body>
+</html>
